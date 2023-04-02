@@ -1,0 +1,64 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#wrap{
+	margin: 0 auto;
+	width:960px ;
+	border: 1px solid red;
+	overflow:hidden;
+}
+
+#header{
+	padding: 10px;
+	margin: 10px;
+	background: #ccc;
+	color: red;
+}
+
+#leftcol{
+	float: left;
+	width: 30%;
+	background: red;
+	height: 200px;
+	padding: 10px;
+
+}
+
+#rightcol{
+	float: right;
+
+	height: 200px;
+	width: 70%;
+	background: green;
+	padding: 10px;
+
+
+}
+
+#dolna  {
+	display: block;
+	padding: 10px;
+	font-size: 13px;
+	margin-top:10px  ;
+}
+.clear{
+	clear: both;
+}
+
+#menu{
+	list-style:none ;
+	padding: 5px;
+	font-size: 14px;
+	background: ;
+	color: #FFF;
+}
+
+#menu li {
+	display: inline;
+}
