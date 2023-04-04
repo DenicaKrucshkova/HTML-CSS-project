@@ -10,7 +10,7 @@
 #wrap{
 	margin: 0 auto;
 	width:960px ;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	overflow:hidden;
 }
 
@@ -24,9 +24,9 @@
 #leftcol{
 	float: left;
 	width: 30%;
-	background: red;
 	height: 200px;
 	padding: 10px;
+	border-right: 1px solid #ccc;
 
 }
 
@@ -34,8 +34,7 @@
 	float: right;
 
 	height: 200px;
-	width: 70%;
-	background: green;
+	width: 65%;
 	padding: 10px;
 
 
